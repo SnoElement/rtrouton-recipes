@@ -145,7 +145,7 @@ if [[ -n "${option_9}" ]]; then
 fi
 
 # Install the Zscaler app and configure it
-"${install_dir}/Zscaler-osx-%version%-installer.app/Contents/MacOS/installbuilder.sh" ${add_option1}${add_option2}${add_option3}${add_option4}${add_option5}${add_option6}${add_option7}${add_option8}${add_option9}</string>
+arch -x86_64 "${install_dir}/Zscaler-osx-%version%-installer.app/Contents/MacOS/installbuilder.sh" ${add_option1}${add_option2}${add_option3}${add_option4}${add_option5}${add_option6}${add_option7}${add_option8}${add_option9}</string>
 			</dict>
 		</dict>
 		<dict>
